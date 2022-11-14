@@ -12,6 +12,7 @@
     </detectors>
 
     <tree-sitter language="graphql">
+        <formatter path="formatter.scm" />
         <highlights path="highlights.scm" />
         <folds path="folds.scm" />
         <symbols path="symbols.scm" />
