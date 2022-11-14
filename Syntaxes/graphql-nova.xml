@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="graphql">
+    <meta>
+        <name>graphql</name>
+        <!-- <type>script</type> -->
+        <preferred-file-extension>graphql</preferred-file-extension>
+    </meta>
+    
+    <detectors>
+        <extension priority="1.0">graphql</extension>
+        <extension priority="1.0">gql</extension>
+    </detectors>
+
+    <tree-sitter language="graphql">
+        <highlights path="highlights.scm" />
+        <folds path="folds.scm" />
+        <symbols path="symbols.scm" />
+    </tree-sitter>
+</syntax>
